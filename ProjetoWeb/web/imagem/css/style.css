@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+#topo{
+    background-color: #503484;
+    padding: 25px;
+	filter: contrast(100%);
+}
+.opcoes a {
+    background: #503484;
+    color: white;
+    padding: 8px;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.opcoes a:hover{
+	opacity:1;
+}
+#sec-1 .div-tit h1{
+	color: white;
+	font-size: 3em;
+	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #4d2a8e;
+	filter: contrast(100%);
+}
