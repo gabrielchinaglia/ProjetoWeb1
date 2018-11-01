@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+	background: url(../images/Fundo.jpg);
+}
+#logo{
+    margin: auto;
+    display: table;
+	height: 25px;
+	width: auto; 
+}
+#sec1 .meio{
+    margin: 0 auto;
+    display: table;
+	background: transparent;
+}
+.meio div input{
+    border-radius: 10px;
+	margin-top: 15px;
+	width: 300px;
+	height: 30px;
+	background-color: #DCDCDC;
+}
+.meio div input:hover{
+	opacity: 0.5;
+}
