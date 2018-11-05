@@ -1,12 +1,17 @@
 *{
     margin: 0px;
-	background: url(../images/Fundo.jpg);
+	background-color: #005073;
 }
 #logo{
     margin: auto;
     display: table;
 	height: 25px;
 	width: auto; 
+	background: transparent;
+	padding-top: 100px;
+}
+#logo img {
+	width: 400px;
 }
 #sec1 .meio{
     margin: 0 auto;
@@ -16,10 +21,10 @@
 .meio div input{
     border-radius: 10px;
 	margin-top: 15px;
-	width: 300px;
-	height: 30px;
+	width: 375px;
+	height: 40px;
 	background-color: #DCDCDC;
 }
 .meio div input:hover{
-	opacity: 0.5;
+	background-color: #f4f4f4;
 }
