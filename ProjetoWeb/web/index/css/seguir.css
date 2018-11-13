@@ -1,0 +1,17 @@
+*{
+    margin: 0 auto;
+}
+#sec-cab{
+    background: #ccc;
+    padding-bottom: 25px;
+}
+.menu{
+    background: #005073;
+    padding-left: 85px;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+}
+.capa-perfil img{
+    width: 100%;
+    height: 400px;
+}
