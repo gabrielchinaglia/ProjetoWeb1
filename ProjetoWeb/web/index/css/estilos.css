@@ -1,48 +1,121 @@
 * {
     margin: 0px;
 }
+body {
+	font-family: 'Roboto', sans-serif;
+}
 header{
-    background-color: #00FA9A;
+    background-color: #007fccd4;
     height: auto;
-	filter: contrast(80%);
 	margin: 0 auto;
+	text-align: center;
+}
+a {
+	text-decoration: none;
 }
 .cab {
-	display: block;
-	position: relative;
+	display: flex;
+	justify-content: center;
 	margin: 0 auto;
 }
 .logo {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	width: 50px;
+	width: 80px;
 	height: auto;
+	margin: 5px 10px 5px 10px;
 }
 .menu {
 	display: inline-block;
-	position: absolute;
+	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+	color: #fff;
 }
 .menu a{
-	text-decoration: none;
-	margin: 10px;
+	margin: 15px;
+	color: #fff;
+}
+.destaque {
+	width: 100%;
+	height: auto;
+	text-align: center;background-color: #aaa;
+	background-image: url(../images/mar.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.principal {
+	display: inline-block;
+	width: 70%;
 }
 img {
 	max-width: 100%;
 }
+.principal figcaption {
+	color: #fff;
+	margin-bottom: 5%;
+	font-size: 1.5em;
+
+}
 .imagens{
 	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 .imagens figure {
 	display: inline-block;
   	text-align: left;
   	padding: 5%;
-  	width: 20%;
+  	width: 22%;
+  	margin-top: 5%;
+  	margin-bottom: 5%;
 }
+
 .imagens figure img{
-	width: 30%
+	width: 100%;
+}
+.imagens figure figcaption {
+	margin-top: -15%;
+	margin-left: 5%;
+	font-size: 1.5em;
+	color: #fff;
 }
 .mapa {
-	width: 100%;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.info {
+	display: flex;
+}
+.info div {
+	display: inline-block;
+	width: 50%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.sec1 {
+	padding-left: 5%;
+}
+.sec1 input, textarea {
+	margin: 1%
+}
+.titulo {
+	margin-bottom: 3%;
+	color: #004a77;
+}
+.sec2 h3, h2{
+	font-weight: 100;
+}
+.sec2 a {
+	color: #004a77;
+}
+footer {
+	background-color: #007fccd4;
+    height: auto;
+	filter: contrast(80%);
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;	
+}
+.direitos {
+	padding: 20px;
 }
