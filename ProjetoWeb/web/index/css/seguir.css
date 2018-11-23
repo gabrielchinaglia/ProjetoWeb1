@@ -1,17 +1,141 @@
-*{
-    margin: 0 auto;
+* {
+    margin: 0px;
 }
+body {
+	font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #007fcc;
+    height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+.cab {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+.logo {
+	width: 80px;
+	height: auto;
+	margin: 2px 10px 2px 10px;
+}
+.menu {
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+}
+.menu a{
+	margin: 15px;
+	color: #fff;
+}
+.destaque {
+	width: 100%;
+	height: auto;
+	text-align: center;background-color: #aaa;
+	background-image: url(../images/sea.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.principal {
+	display: inline-block;
+	width: 70%;
+}
+img {
+	max-width: 100%;
+}
+.principal figcaption {
+	color: #fff;
+	margin-bottom: 5%;
+	font-size: 1.5em;
+
+}
+.imagens{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.imagens figure {
+	display: inline-block;
+  	text-align: left;
+  	padding: 5%;
+  	width: 22%;
+  	margin-top: 5%;
+  	margin-bottom: 5%;
+}
+
+.imagens figure img{
+	width: 100%;
+}
+.imagens figure figcaption {
+	margin-top: -15%;
+	margin-left: 5%;
+	font-size: 1.5em;
+	color: #fff;
+}
+.mapa {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.info {
+	display: flex;
+}
+.info div {
+	display: inline-block;
+	width: 50%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.sec1 {
+	padding-left: 5%;
+}
+.sec1 input, textarea {
+	margin: 1%
+}
+.titulo {
+	margin-bottom: 3%;
+	color: #004a77;
+}
+.sec2 h3, h2{
+	font-weight: 100;
+}
+.sec2 a {
+	color: #004a77;
+}
+footer {
+	background-color: #007fcc;
+	font-size:1em;
+	font-weight: 100;
+    height: auto;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;	
+}
+.direitos {
+	padding: 20px;
+}
+
+/* SEGUIR PESSOAS */
 #sec-cab{
     background: #ccc;
     padding-bottom: 25px;
 }
-.menu{
-    background: #005073;
-    padding-left: 85px;
-    padding-bottom: 10px;
-    padding-top: 10px; 
-}
 .capa-perfil img{
     width: 100%;
     height: 400px;
+}
+.perfil img{
+	background-color: #007fcc;
+	border: 3px;
+	border-radius: 250px;
+	border-style: solid;
+	border-color: #007fcc;
+	padding: 2px;
 }
