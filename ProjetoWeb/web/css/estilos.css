@@ -1,3 +1,5 @@
+/*  INDEX  */
+/* Cabeçalho universal */
 * {
     margin: 0px;
 }
@@ -34,6 +36,9 @@ a {
 	margin: 15px;
 	color: #fff;
 }
+
+/* Fim do cabeçalho */
+
 .destaque {
 	width: 100%;
 	height: auto;
@@ -54,7 +59,6 @@ img {
 	color: #fff;
 	margin-bottom: 5%;
 	font-size: 1.5em;
-
 }
 .imagens{
 	text-align: center;
@@ -77,6 +81,7 @@ img {
 	margin-top: -15%;
 	margin-left: 5%;
 	font-size: 1.5em;
+	font-weight: 600;
 	color: #fff;
 }
 .mapa {
@@ -96,7 +101,7 @@ img {
 .sec1 {
 	padding-left: 5%;
 }
-.sec1 input, textarea {
+.sec1 input, textarea { 
 	margin: 1%
 }
 .titulo {
@@ -120,4 +125,21 @@ footer {
 }
 .direitos {
 	padding: 20px;
+}
+
+/*  IMAGEM  */
+
+.img_open{
+    
+
+}
+.conteudo {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+.img_open img{
+    margin-top: 2%;
+    width: 50%;
+
 }
