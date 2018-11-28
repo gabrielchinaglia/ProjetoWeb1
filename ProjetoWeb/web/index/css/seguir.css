@@ -132,10 +132,23 @@ footer {
     height: 400px;
 }
 .perfil img{
-	background-color: #007fcc;
-	border: 3px;
-	border-radius: 250px;
-	border-style: solid;
-	border-color: #007fcc;
-	padding: 2px;
+	margin: 0 auto;
+	display: table;
+	margin-top: 65px;
+	margin-bottom: 50px;
+	max-width: 250px;
+	height: 250px;
+	border-color: blue;
+	border-radius: 150px
+}
+.botao{
+	margin: 0 auto;
+	display: table;
+	background-color: #ccc;
+	border-radius: 50px;
+	padding: 25px;
+}
+.botao a{
+	text-decoration: none;
+	color: ##007fcc;
 }
