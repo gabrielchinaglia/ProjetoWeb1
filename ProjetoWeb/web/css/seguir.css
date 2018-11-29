@@ -3,6 +3,7 @@
 }
 body {
 	font-family: 'Roboto', sans-serif;
+	background-color: white;
 }
 header{
     background-color: #007fcc;
@@ -109,24 +110,12 @@ img {
 .sec2 a {
 	color: #004a77;
 }
-footer {
-	background-color: #007fcc;
-	font-size:1em;
-	font-weight: 100;
-    height: auto;
-	margin: 0 auto;
-	text-align: center;
-	color: #fff;	
-}
 .direitos {
 	padding: 20px;
 	margin-top: 25px;
 }
 
 /* SEGUIR PESSOAS */
-body{
-	background-color: white;
-}
 #sec-cab{
     background: #ccc;
     padding-bottom: 25px;
@@ -138,6 +127,7 @@ body{
 .capa img{
 	width: 100%;
 	height:500px;
+	margin-bottom: -40px;
 }
 .perfil{
 	width: 250px;
@@ -156,9 +146,9 @@ body{
 	background-color: #e6ecf0;
 	border-radius: 50px;
 	padding: 25px;
-	width: 100px;
+	width: 200px;
 	height: 15px;
-	margin-left: 400px;
+	margin-left: 600px;
 	margin-top: -90px;
 	margin-bottom: 100px;
 }
@@ -186,6 +176,13 @@ body{
 	margin-left: 5px;
 	margin-bottom: 25px;
 }
+.nome-perfil{
+	margin-left: 350px;
+	color: #007fcc;;
+}
+.nome-perfil h1{
+	padding-bottom: 20px;
+}
 .infos h2{
 	text-decoration: none;
 	margin-left: 5px;
@@ -195,4 +192,42 @@ body{
 	margin-left: 5px;
 	margin-bottom: 5px;
 	
+}
+footer {
+	background-color: #007fcc;
+	font-size:1em;
+	font-weight: 100;
+    height: auto;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;	
+}
+#tl{
+	margin: 0 auto;
+	display: table;
+	margin-top: 100px;
+	width: 50%;
+	height: auto;
+}
+.post1{
+	border-radius: 10px;
+	padding: 40px;
+	background-color: #e6ecf0;
+	margin: 0 auto;
+	display: table;
+	width: 90%;
+	margin-bottom: 25px;
+}
+.post1 h1{
+	color: #007fcc;
+	margin-bottom: 20px;
+}
+.post1 h2{
+	font-size: 19px;
+	margin-bottom: 20px;
+}
+.post1 img{
+	margin: 0 auto;
+	display: table;
+	border-radius: 5px;
 }

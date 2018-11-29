@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0px;
 	background-color: #005073;
 }
@@ -27,4 +27,24 @@
 }
 .meio div input:hover{
 	background-color: #f4f4f4;
+}
+.button {
+   margin-top: 15px;
+   background: #DCDCDC;
+   margin: 5px;
+   border-radius: 8px;
+   font-family: roboto;
+}
+.button:hover {
+   background: #ccc;
+   color: #ccc;
+}
+.button a{
+	text-decoration: none;
+}
+.button h1{
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #005073;
 }
