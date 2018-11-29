@@ -148,8 +148,7 @@ body{
 .perfil img{
 	max-width: 250px;
 	height: 250px;
-	border: solid;
-    border-color: #e6ecf0;
+	border-color: blue;
 	border-radius: 200px;
 }
 .botao{
@@ -165,10 +164,6 @@ body{
 .botao h1{
 	text-align: center;
 	color: #007fcc;
-}
-.botao:hover{
-	background-color: #ccc;
-	border-radius: 30px;
 }
 .infos{
 	display: inline;
