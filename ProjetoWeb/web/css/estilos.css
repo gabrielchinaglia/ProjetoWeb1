@@ -33,8 +33,10 @@ a {
 	color: #fff;
 }
 .menu a{
-	margin: 20px;
+	margin: 30px;
 	color: #fff;
+	font-weight: 700;
+	font-size: 1.1em;
 }
 
 /* Fim do cabeçalho */
@@ -110,9 +112,11 @@ img {
 .titulo {
 	margin-bottom: 3%;
 	color: #004a77;
+	font-size: 3em;
+	font-weight: 800;
 }
 .sec2 h3, h2{
-	font-weight: 100;
+	font-weight: 700;
 	margin-bottom: 2%;
 }
 .sec2 a {
@@ -120,7 +124,7 @@ img {
 }
 .campo {
 	width: 50%;
-	height: 25px;
+	height: 30px;
 	font-size: medium;
 	border-radius: 5px;
 	padding-left: 1%;
@@ -140,6 +144,8 @@ img {
 }
 .rotulo {
 	margin: 1%;
+	font-size: 1.5em;
+	font-weight: 700;
 }
 .fab {
 	font-size: xx-large;
@@ -159,19 +165,76 @@ footer {
 	padding: 20px;
 }
 
-/*  IMAGEM  */
+/*  TELA DAS IMAGENS  */
 
-.img_open{
-    
-
+h1.tituloPagina {
+	text-align: center;
+	padding: 1%;
+	color: white;
+	background-color: #0f98ea;
+}
+.titulo_rep {
+	justify-content: center;
+	width: 40%;
+	margin: 1%;
+	margin-left: auto;
+	margin-right: auto;
+    line-height: 40px;
+}
+.titulo_rep h1{
+	text-align: center;
+}
+section.rep {
+	text-align: left;
+	padding-bottom: 5%
+}
+section.rep h1 {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+section.rep p {
+    line-height: 30px;
+}
+section.img_open figure{
+    margin-bottom: 3%;
+	text-align: center;
+}
+section.img_open figure p {
+    font-size: 0.8em;
 }
 .conteudo {
     margin: 0 auto;
-    text-align: center;
-    width: 50%;
+    width: 40%;
+}
+
+.conteudo hr{
+	margin-top: 5%
 }
 .img_open img{
     margin-top: 2%;
     width: 50%;
+}
+.contato {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tit_cont {
+	margin-bottom: 1%;
+	color: #004a77;
+	font-size: 1.5em;
+	font-weight: 800;
+	text-align: center;
+}
+.contato h3, h2{
+	font-weight: 700;
+	margin-bottom: 2%;
+}
+.contato i {
+	text-align: center;
+}
+div.icons {
+    text-align: center;
+	margin-bottom: 2%;
 
 }
