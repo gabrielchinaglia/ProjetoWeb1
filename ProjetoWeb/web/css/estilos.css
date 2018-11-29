@@ -33,7 +33,7 @@ a {
 	color: #fff;
 }
 .menu a{
-	margin: 15px;
+	margin: 20px;
 	color: #fff;
 }
 
@@ -69,17 +69,20 @@ img {
 	display: inline-block;
   	text-align: left;
   	padding: 5%;
-  	width: 22%;
-  	margin-top: 5%;
-  	margin-bottom: 5%;
+  	width: 15%;
+  	margin-top: 2%;
+  	margin-bottom: 2%;
 }
-
+.imagens figure:hover{
+	background: rgba(0, 0, 0, 0.1);
+	transition: 1s;
+}
 .imagens figure img{
 	width: 100%;
 }
 .imagens figure figcaption {
-	margin-top: -15%;
-	margin-left: 5%;
+	margin-top: -20%;
+	margin-left: 10%;
 	font-size: 1.5em;
 	font-weight: 600;
 	color: #fff;
@@ -110,9 +113,38 @@ img {
 }
 .sec2 h3, h2{
 	font-weight: 100;
+	margin-bottom: 2%;
 }
 .sec2 a {
 	color: #004a77;
+}
+.campo {
+	width: 50%;
+	height: 25px;
+	font-size: medium;
+	border-radius: 5px;
+	padding-left: 1%;
+}
+.txt_msg {
+	border-radius: 5px;
+	padding-left: 1%;
+}
+.button {
+	font-size: 1.2em;
+	width: 20%;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	background-color: green;
+	color: white;
+}
+.rotulo {
+	margin: 1%;
+}
+.fab {
+	font-size: xx-large;
+	color: #004a77;
+	margin:2%;
 }
 footer {
 	background-color: #007fcc;

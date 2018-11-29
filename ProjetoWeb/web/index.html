@@ -6,6 +6,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	    <link rel="stylesheet" type="text/css" href="css/estilos.css">
 	    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 		<title> Início </title>
   </head>
   <body>
@@ -19,7 +20,7 @@
 					<a href="index.html"> Home </a>
 					<a href="Tela2"> Tela2 </a>
 					<a href="Tela3"> Tela3 </a>
-					<a href="login.html"> Sair </a>
+					<a href="login.html"> Login </a>
 				</nav>
 			</div>
 		</div>
@@ -33,14 +34,14 @@
 
 		<section class="imagens">
 			<figure>
-				<a href="https://globoesporte.globo.com/">
-				<img src="images/ManUtd.jpg" title="Manchester United" alt="Esportes" />
+				<a href="imagem.html" target="_blank">
+				<img src="images/degea.jpg" title="Notícias sobre esportes" alt="Esportes" />
 				<figcaption>Esportes</figcaption>
 				</a>
 			</figure>
 			<figure>
 				<a href="https://www.theenemy.com.br/#">
-				<img src="images/gtav.jpg" title="GTAV" alt="Games" />
+				<img src="images/gtav.jpg" title="Dicas de games" alt="Games" />
 				<figcaption>Games</figcaption>
 				</a>
 			</figure>
@@ -60,15 +61,19 @@
 			<div class="sec1">
 				<form>
 					<h1 class="titulo"> Contato </h1>
-					<input type="text" placeholder="Nome">
+					<h4 class="rotulo">Nome</h4>
+					<input class="campo" type="text" placeholder="Nome">
 					<br />
-					<input type="text" placeholder="e-mail">
+					<h4 class="rotulo">E-mail</h4>
+					<input class="campo" type="text" placeholder="e-mail">
 					<br />
-					<input type="text" placeholder="Assunto">
+					<h4 class="rotulo">Assunto</h4>
+					<input class="campo" type="text" placeholder="Assunto">
 					<br />
-					<textarea placeholder="Mensagem" maxlength="240"></textarea>
+					<h4 class="rotulo">Mensagem</h4>
+					<textarea class="txt_msg" placeholder="Insira sua mensagem" cols="40" rows="5" maxlength="240"></textarea>
 					<br />
-					<input type="submit" name="Enviar">
+					<input class="button" type="submit" name="Enviar">
 				</form>
 			</div>
 
@@ -78,6 +83,10 @@
 				<h2>São Paulo, SP</h2>
 				<h2>CEP: 01310-100</h2>
 				<h3><a href="mailto:sac@soapp.com" title="Suporte">sac@dolphin.com</a></h3>
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-linkedin-in"></i>
 			</div>
 		</section>
 
